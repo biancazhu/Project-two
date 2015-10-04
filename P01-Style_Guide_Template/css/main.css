@@ -1,0 +1,139 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: Source Sans Pro,Arial,Verdana;
+  padding: 1rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 0.15em solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.5em;
+  display: block;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: rgb(126,192,191);
+  border-radius: 0.2em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: rgb(109,136,123);
+}
+
+.text-nav{
+  padding: 0.5em 0.75em;
+  color: rgb(191,192,194);
+  border-radius: 0.25em;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+.text-nav:hover, .text-nave:focus {
+  color:rgb(119,125,131);
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+h1 {
+
+  font-size: 2.5rem; 
+}
+
+
+
+h2 {
+ 
+  font-weight: normal;
+  font-size: 2rem; 
+
+ 
+  margin-top: 1.5em; 
+}
+
+
+h2 a {
+  font-style: italic;
+}
+
+
+h3{
+  font-weight: bolder;
+  font-size: 1em;
+}
+
+p, ul, ol {
+  font-size: 0.8em; 
+ 
+  max-width: 40em; 
+  line-height: 1rem; 
+}
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+.navigation-nav {
+  display: inline-block;
+  padding: 0.5em 1em;
+  color: #FFF;
+  border-radius: 0em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.navigation-nav.bg1 {
+  background-color: rgb(222,183,127);
+}
+
+.navigation-nav.bg2 {
+  background-color: rgb(135,131,130);
+}
+
+.navigation-nav.bg3 {
+  background-color: rgb(144,159,153);
+}
+
+.navigation-nav.bg4 {
+  background-color: rgb(152,193,194);
+}
+
+
+.navigation-nav:hover, .navigation-nav:active, .navigation-nav:focus {
+  background-color: rgb(182,182,182);
+  color: white;
+}
