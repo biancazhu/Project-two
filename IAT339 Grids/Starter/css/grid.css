@@ -22,6 +22,11 @@
   width:16.6%;
 }
 
+.grid-col-1of3 {
+  width: 33.3%;
+  float: left;
+}
+
 .navigation_wrapper {
   float: right;
   padding-bottom: 2em;
@@ -49,8 +54,29 @@
   height: 200px;
 }
 
+.events-image {
+  background: #CCC;
+  height: 300px;
+}
+
+.logo_image {
+  text-align: center;
+}
+
 body {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
 }
+
+
+
+/* 912px ---------------------------------------------*/
+@media (max-width:800px){
+
+  .grid-col-5of10 {
+   width: 100%;
+   
+}
+
+  }
