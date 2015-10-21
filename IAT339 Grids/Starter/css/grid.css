@@ -70,13 +70,12 @@
 }
 
 .categories-image img{
-  width: 100%
+  width: 100%;
 }
 
 .navigation-logo img  {
   float: left;
   display: block;
-  margin: 0 auto;
   height: auto;
   width: 220px;
  }
@@ -97,21 +96,20 @@ body {
 /* 912px ---------------------------------------------*/
 @media (max-width:800px){
 
-  .navigation-logo {
+  .grid-col-3of10 {
     width: 100%;
     margin-bottom: 1.6em;
+    clear: both;
   }
 
   .navigation-nav{
     float: none;
    }
 
-   .navigation-logo img  {
-    float: none;
-    margin: 0 auto;
-    height: auto;
-    width: 220px;
- }
+   .navigation-logo {
+    margin-left: 50%;
+    margin-right: 50%;
+  }
 
  .grid-col-1of4 {
   width: 50%;
