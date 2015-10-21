@@ -83,8 +83,16 @@
   width: 220px;
  }
 
-.events-image img {
-  width: 99%;
+.events-image #event1 {
+  width: 96%;
+  float: left;
+  padding-bottom: 1em;
+}
+
+.events-image #event2 {
+  width: 96%;
+  float:right;
+  padding-bottom: 1em;
 }
 
 

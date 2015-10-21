@@ -67,8 +67,29 @@
 
 }
 
-h2 {
+.hyperlink {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  font-size: 1em;
+  text-align: center;
+  color: #9b363a;
+}
 
+h3 {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.0em;
+  padding-left: 25%;
+  padding-right: 25%;
+  text-align: center;
+}
+
+h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
   letter-spacing: 1.5px;
@@ -77,6 +98,30 @@ h2 {
   padding-left: 25%;
   padding-right: 25%;
   text-align: center;
+}
+
+.events-image #event1 {
+  width: 96%;
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.75em;
+  text-decoration: none;
+  text-align: justify;
+  margin: 0;
+}
+
+.events-image #event2 {
+  width: 96%;
+  float: right;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.75em;
+  text-decoration: none;
+  text-align: justify;
+  margin: 0;
 }
 
 .grid-col-1of4 a:link {
