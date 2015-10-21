@@ -43,10 +43,22 @@
   color: #ffffff;
 }
 
-@media (max-width:1000px){
+
+.main-image{
+  height: 250px;
+  overflow:hidden;
+  object-fit: cover;
+}
+
+.main-image img{ 
+  width:100%;
+  object-fit: cover; 
+}
+
+@media (max-width:1200px){
 
   .navigation_button {
-    font-size: 0.9em;
+    font-size: 1em;
   }
 
 }
