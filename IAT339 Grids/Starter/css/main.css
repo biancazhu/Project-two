@@ -182,7 +182,7 @@ h3 {
 
 
 .add {
-  float: left;
+  float: none;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: lighter;
   letter-spacing: 1.5px;
@@ -190,23 +190,13 @@ h3 {
   font-size: 0.8em;
   text-align: center;
   margin: 0;
-  padding: 0.5em 3.5em;
   border: solid;
   border-width: 1px;
+  padding-top: 0.8em;
+  padding-bottom: 0.6em;
+  margin-top:5em;
 }
 
-
-.plus-and-minus {
-  float: right;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: lighter;
-  letter-spacing: 1.5px;
-  text-decoration: none;
-  font-size: 0.8em;
-  text-align: center;
-  margin: 0;
-
-}
 
 .product-describtion h3 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -253,7 +243,6 @@ h2 {
   text-align: left;
   margin: 0;
   padding-top: 2em;
-  padding-bottom: 3.2em;
 }
 
 .events-image #event1 {
@@ -279,6 +268,56 @@ h2 {
   text-align: left;
   margin: 0;
 }
+
+/*tabs*/
+section {
+  display: none;
+  border-top: 1px solid #ddd;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+label:before {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-right: 10px;
+}
+
+/*label[for*='1']:before { content: '\f1cb'; }
+label[for*='2']:before { content: '\f17d'; }
+label[for*='3']:before { content: '\f16b'; }
+label[for*='4']:before { content: '\f1a9'; }*/
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid black;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+}
+
 
 .grid-col-1of4 a:link {
   color: #3e3a39;
