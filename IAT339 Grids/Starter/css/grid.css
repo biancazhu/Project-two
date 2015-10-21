@@ -49,6 +49,15 @@
 .grid-col-7of10 {
   width: 70%;
 }
+
+.grid-col-4of10 {
+  width: 40%;
+}
+
+.grid-col-6of10 {
+  width: 60%;
+}
+
 .newspaper-signup{
   float: right;
 }
@@ -135,6 +144,14 @@
 
 .grid-col-1of4.packpack-image {
   width: 25%;
+}
+
+.product-detail-image img {
+  width: 100%;
+}
+
+.description-wrapper {
+  margin-left: 3em;
 }
 
 

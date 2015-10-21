@@ -135,7 +135,7 @@
   text-decoration: none;
   font-size: 0.9em;
   text-align: center;
-  margin: 2.5em;
+  margin: 1.5em;
   margin-bottom: 4em;
   margin-top: 1.5em;
   border: solid;
@@ -177,6 +177,59 @@ h3 {
   padding-left: 25%;
   padding-right: 25%;
   text-align: center;
+  margin-bottom: 0.5em;
+}
+
+
+.add {
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0;
+  padding: 0.5em 3.5em;
+  border: solid;
+  border-width: 1px;
+}
+
+
+.plus-and-minus {
+  float: right;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0;
+
+}
+
+.product-describtion h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.0em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  padding-top: 1em;
+}
+
+
+.product-describtion h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
@@ -188,6 +241,19 @@ h2 {
   padding-left: 25%;
   padding-right: 25%;
   text-align: center;
+}
+
+.product-describtion p {
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.75em;
+  text-decoration: none;
+  text-align: left;
+  margin: 0;
+  padding-top: 2em;
+  padding-bottom: 3.2em;
 }
 
 .events-image #event1 {
