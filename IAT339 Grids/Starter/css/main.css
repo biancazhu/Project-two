@@ -85,6 +85,18 @@
 }
 
 
+.hierarchy_button {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  display: inline-block;
+  color: #3e3a39;
+  text-decoration: none;
+  font-size: 0.9em;
+  padding-right: 2em;
+  border-top: solid;
+}
+
 .main-image{
   height: 250px;
   overflow:hidden;
@@ -115,6 +127,45 @@
   color: #9b363a;
 }
 
+.packpack-image h5 {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.9em;
+  text-align: center;
+  margin: 2.5em;
+  margin-bottom: 4em;
+  margin-top: 1.5em;
+  border: solid;
+  border-width: 1px;
+
+}
+
+.packpack-image h4 {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.7em;
+  text-align: center;
+  margin: 0;
+}
+
+.packpack-image h3 {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.0em;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 0.3em;
+  margin: 0;
+}
 
 h3 {
 
@@ -183,8 +234,8 @@ h2 {
 @media (max-width:1300px) and (min-width: 801px){
 
   .navigation_button {
-    margin-right: 1em;
-    margin-left: 1em;
+    font-size: 1.0em;
+
   }
 
 }
@@ -204,6 +255,7 @@ h2 {
   font-size: 0.9em;
   padding-left: 30%;
 }
+
 
 
 }

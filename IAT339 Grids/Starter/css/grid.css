@@ -100,13 +100,13 @@
  }
 
 .events-image #event1 {
-  width: 96%;
+  width: 98%;
   float: left;
   padding-bottom: 1em;
 }
 
 .events-image #event2 {
-  width: 96%;
+  width: 98%;
   float:right;
   padding-bottom: 1em;
 }
@@ -123,6 +123,18 @@
 
 .newspaper {
   margin-top:1em;
+}
+
+.grid-col-5of10.hierarchy {
+  margin-bottom: 1em;
+}
+
+.packpack-image img{
+  width: 97%;
+}
+
+.grid-col-1of4.packpack-image {
+  width: 25%;
 }
 
 
@@ -191,7 +203,7 @@ body {
 }
 
 .grid-col-1of3.newspaper-signup {
-  width: 30%;
+  width: 0%;
   float: right;
 }
 
@@ -210,8 +222,12 @@ body {
 }
 
 .grid-col-7of10 {
-  float: none;
+  float: left;
   width: 100%;
+}
+
+.grid-col-1of4.packpack-image {
+  width: 50%;
 }
 
 
