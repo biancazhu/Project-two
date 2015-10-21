@@ -11,13 +11,14 @@
 .grid-col-10of10 {
   width:100%;
   float:left;
+  padding-top: 0.3em;
   padding-bottom: 0.9em;
   margin-top: 0;
 }
 
 .headerbar{
   background: black;
-  padding-bottom: 0.3em;
+  padding-bottom: 0em;
 }
 
 .headerbar-button-wrapper{
@@ -59,8 +60,11 @@
   float:right;
   height:1.5em;
   text-align:center;
-  padding:0;
+}
 
+.headerbar-header-button img {
+  width: 80%;
+  padding-top: 0.3em;
 }
 
 .grid-col-10of10.main-image{
