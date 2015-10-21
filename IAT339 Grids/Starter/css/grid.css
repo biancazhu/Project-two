@@ -11,7 +11,7 @@
 .grid-col-10of10 {
   width:100%;
   float:left;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.9em;
   margin-top: 0;
 }
 
@@ -29,6 +29,7 @@
 .grid-col-3of10 {
   float: left;
   width: 30%;
+  margin-top: 1.5em;
 }
 
 .grid-col-1of4 {
@@ -50,7 +51,7 @@
 }
 
 .navigation_wrapper{
-  margin-top: 1.3em;
+  padding-top: 2em;
 }
 
 .nav_button{
@@ -75,14 +76,20 @@
   height: 200px;
 }
 
+.navigation-logo img  {
+  float: left;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 220px;
+ }
+
+
 .events-image {
   background: #CCC;
   height: 300em;
 }
 
-.logo_image {
-  text-align: center;
-}
 
 body {
   margin: 0;
@@ -91,24 +98,30 @@ body {
 
 
 /* 912px ---------------------------------------------*/
-@media (max-width:681px){
+@media (max-width:800px){
 
   .grid-col-3of10 {
     width: 100%;
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: 1.6em;
   }
 
   .navigation-nav{
     float: none;
    }
 
+.navigation-logo img  {
+
+  width: 100px;
+
  }
 
-@media (max-width:1200px){
+ }
+
+@media (max-width:1300px){
 
   .navigation_wrapper{
-  margin-top: 1.6em;
+  margin-top: 0.1em;
   }
   
   .body_margin {
@@ -122,5 +135,12 @@ body {
   margin-right: 6%;
   margin-left: 6%
 }
+
+  .navigation-logo img  {
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 220px;
+ }
 
 }

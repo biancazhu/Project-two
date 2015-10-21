@@ -29,18 +29,18 @@
 .navigation_button {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   display: inline-block;
-  padding: 0.5em 0.75em;
+  padding-left: 1.5em;
   color: #3e3a39;
   background-color: #ffffff;
   text-decoration: none;
-  font-size: 1.1em;
+  font-size: 1.05em;
 }
 
 .navigation_button:hover, .navigation_button:focus {
-  background-color: #3e3a39;
-  color: #ffffff;
+  color: #9b363a;
+  text-decoration: underline;
 }
 
 
@@ -55,7 +55,7 @@
   object-fit: cover; 
 }
 
-@media (max-width:1200px){
+@media (max-width:1300px){
 
   .navigation_button {
     font-size: 1em;
@@ -64,9 +64,10 @@
 }
 
 
-@media (max-width:681px){
+@media (max-width:800px){
   .navigation_button {
     display: block;
     text-align: center;
     font-size: 0.9em;
+    padding-bottom: 0.9em;
   }
