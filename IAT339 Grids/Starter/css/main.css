@@ -34,11 +34,27 @@
   padding: 0.5em 0.75em;
   color: #3e3a39;
   background-color: #ffffff;
-  margin-right: 0.5em;
   text-decoration: none;
+  font-size: 1.1em;
 }
 
 .navigation_button:hover, .navigation_button:focus {
   background-color: #3e3a39;
   color: #ffffff;
 }
+
+@media (max-width:1000px){
+
+  .navigation_button {
+    font-size: 0.9em;
+  }
+
+}
+
+
+@media (max-width:681px){
+  .navigation_button {
+    display: block;
+    text-align: center;
+    font-size: 0.9em;
+  }

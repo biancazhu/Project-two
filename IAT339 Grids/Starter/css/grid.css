@@ -6,12 +6,13 @@
  
   width:100%;
   float:left;
-  padding-bottom: 2em;
+  padding-bottom: 1.5em;
 }
 
-.grid-col-5of10 {
+.grid-col-3of10 {
   float: left;
-  width: 50%;
+  width: 30%;
+  background: blue;
 }
 
 .grid-col-1of4 {
@@ -27,9 +28,13 @@
   float: left;
 }
 
-.navigation_wrapper {
+.navigation-nav {
   float: right;
   padding-bottom: 2em;
+}
+
+.navigation_wrapper{
+  margin-top: 1.3em;
 }
 
 .nav_button{
@@ -72,11 +77,20 @@ body {
 
 
 /* 912px ---------------------------------------------*/
-@media (max-width:800px){
+@media (max-width:681px){
 
-  .grid-col-5of10 {
-   width: 100%;
-   
-}
-
+  .grid-col-3of10 {
+    width: 100%;
+    display: block;
+    margin-bottom: 1em;
   }
+
+  .navigation-nav{
+    float: none;
+   }
+  }
+
+@media (max-width:799px){
+
+
+}
