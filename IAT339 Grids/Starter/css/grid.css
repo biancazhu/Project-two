@@ -18,7 +18,7 @@
 
 .headerbar{
   background: black;
-  padding-bottom: 0em;
+  padding-bottom: 0.3em;
 }
 
 .headerbar-button-wrapper{
@@ -37,9 +37,8 @@
   width:25%;
 }
 
-.grid-col-1of3 {
-  width: 33.3%;
-  float: left;
+.grid-col-1of2 {
+  width: 50%;
 }
 
 
@@ -84,10 +83,8 @@
   width: 220px;
  }
 
-
-.events-image {
-  background: #CCC;
-  height: 300em;
+.events-image img {
+  width: 99%;
 }
 
 
@@ -98,7 +95,7 @@ body {
 
 
 /* 912px ---------------------------------------------*/
-@media (max-width:800px){
+@media (max-width:800px) and (min-width: 0px){
 
   .grid-col-3of10 {
     width: 100%;
@@ -110,34 +107,56 @@ body {
     float: none;
    }
 
-   .navigation-logo {
-    margin-left: 50%;
-    margin-right: 50%;
+   .navigation-logo{
+    float:none;
+    }
+
+   .navigation-logo img{
+    width: 36%;
+    padding-left: 32%;
+    padding-right: 32%;
+    padding-bottom: 1.2em;
+    }
+
+    .grid-col-1of4 {
+    width: 50%;
   }
 
- .grid-col-1of4 {
-  width: 50%;
+  .grid-col-10of10 {
+  padding-bottom: 0.0em;
+  padding-top: 0em;
+  }
+
+.grid-col-1of2 {
+  width:  100%;
+}
+
+ .body_margin{
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%; 
+}
+
+.headerbar-button-wrapper {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%; 
 }
 
  }
 
-@media (max-width:1300px){
+@media (max-width:1300px) and (min-width: 801px){
 
   .navigation_wrapper{
-  margin-top: 0.1em;
+   margin-top: 0.1em;
   }
   
   .body_margin {
-  width: 88%;
-  margin-left: 6%;
-  margin-right: 6%;
-  }
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%; 
 
-  .headerbar-button-wrapper{
-  width: 88%;
-  margin-right: 6%;
-  margin-left: 6%
-}
+  }
 
   .navigation-logo img  {
     float: left;
@@ -145,5 +164,13 @@ body {
     margin-bottom: auto;
     width: 220px;
  }
+
+.headerbar-button-wrapper {
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%; 
+}
+
+
 
 }

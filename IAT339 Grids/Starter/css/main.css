@@ -96,7 +96,7 @@ h2 {
   color: #9b363a;
 }
 
-@media (max-width:1300px){
+@media (max-width:1300px) and (min-width: 801px){
 
   .navigation_button {
     font-size: 1em;
@@ -105,12 +105,14 @@ h2 {
 }
 
 
-@media (max-width:800px){
+@media (max-width:800px) {
   .navigation_button {
     display: block;
     text-align: center;
     font-size: 0.9em;
     padding-bottom: 0.9em;
+    padding-left: 0em;
+
   }
 
   h2 {
