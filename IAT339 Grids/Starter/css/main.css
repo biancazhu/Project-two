@@ -29,6 +29,44 @@
   
 }
 
+.newspaper-signup #title{
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1.3px;
+  font-size:0.7em;
+  color:white;
+  background:transparent;
+  display:inline-block;
+  border:none;
+  text-align: center;
+  padding-top: 0.2em;
+  padding-right:1em;
+}
+
+.newspaper-signup #button{
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1.3px;
+  font-size:0.7em;
+  background: #9b363a;
+  color: white;
+  display:inline-block;
+  border:none;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding:0 1em;
+  padding-top: 0.45em;
+  padding-bottom: 0.45em;
+  cursor:pointer;
+
+}
+
+.newspaper-signup input[type="text"]{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0 auto;
+  padding: 0.3em;
+
+}
+
 /* Styling for the navigation button */
 .navigation_button {
   font-family: 'Source Sans Pro', sans-serif;
@@ -76,6 +114,7 @@
   text-align: center;
   color: #9b363a;
 }
+
 
 h3 {
 
@@ -165,5 +204,6 @@ h2 {
   font-size: 0.9em;
   padding-left: 30%;
 }
+
 
 }
