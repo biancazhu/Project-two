@@ -83,6 +83,10 @@
   width: 220px;
  }
 
+ .events-image{
+  padding-bottom: 2em;
+ }
+
 .events-image #event1 {
   width: 96%;
   float: left;
@@ -93,6 +97,10 @@
   width: 96%;
   float:right;
   padding-bottom: 1em;
+}
+
+.bottompage {
+  background: black;
 }
 
 
@@ -140,15 +148,24 @@ body {
 }
 
  .body_margin{
-  width: 100%;
-  margin-left: 0%;
-  margin-right: 0%; 
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%; 
 }
 
 .headerbar-button-wrapper {
   width: 95%;
   margin-left: 2.5%;
   margin-right: 2.5%; 
+}
+
+
+.events-image #event1 {
+  width: 100%;
+}
+
+.events-image #event2 {
+  width: 100%;
 }
 
  }
