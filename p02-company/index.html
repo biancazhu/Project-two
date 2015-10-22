@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My templet</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+
+  </head>
+  <body>
+
+    <!--header buttons-->
+    <div class="grid-col-10of10 header">
+
+      <div class="header-button">
+        <input type="button" value="Sign Up" onclick="signupOpen()">
+      </div>
+        <div class="header-button">
+         <input type="button" value="Log In" onclick="loginOpen()">
+        </div>
+        
+<!--         <div class="cart-icon">
+        <a href="">
+        <img src="">
+        </a>
+      </div> -->
+
+    </div>
+
+
+
+    <!--logo + navigation bar-->
+    <div class="navigation">
+      <div class="grid-col-5of10 navigation-logo">
+        <a href=""><img src=""></a>
+        <p>This is my logo</p>
+      </div>
+
+      <div class="grid-col-5of10 navigation-nav">
+
+        <div class="navigation_wrapper">
+
+          <a href="" class="nav_button">
+            <p3>Shop</p3>
+          </a>
+
+          <a href="" class="nav_button">
+            <p3>About</p3>
+          </a>
+
+          <a href="" class="nav_button">
+            <p3>Blog</p3>
+          </a>
+
+          <a href="" class="nav_button">
+            <p3>Cart</p3>
+          </a>
+
+          <a href="" class="nav_button">
+            <p3>Contact</p3>
+          </a>
+        </div>
+
+      </div>
+
+       <!--context shot-->
+       <div class="grid-col-10of10 context_shot">
+          <div class=".context_shot-image ">
+            <img src="img/company.jpg" height="650" width="1100">
+            <p>The meeting room of the company</p>
+          </div>
+       </div>
+
+      <!--text-->
+      <div class="grid-col-10of10 context_shot">
+        <h2>Paragraphs</h2>
+        <p>This is a brand selling high quality designed backpack for the people who is student, or those whom loves to travel as a backpacker.
+        </p>
+      </div>
+
+
+      <!--map-->
+      <div class="grid-col-5of10">
+          <div class".context_shot-image" >
+            <img src="img/map.png" width="500" height="500">
+          </div>
+          
+      </div>
+
+      <!--contact-->
+      <div class="grid-col-4of10 ">
+
+          <h2> Contact Us</h2>
+          <p> Address: 250 - 13450 – 102nd Avenue, Central City Shopping Centre, Surrey, BC V3T 0A3</p>
+          <p> Phone: (778) 782-3111</p>
+
+
+
+         <p>Feel free to email us</p>
+
+         <form method="post" action="#">
+        
+        <!-- 
+          In this case we add in the div to help bundle the
+          label and input for styling purposes
+        -->
+        <div class="input-wrapper">
+          <label for="form-email">Email:</label>
+          <input type="text" id="form-email" placeholder="stevenjobs@gmail.com">
+        </div>
+
+        <div class="input-wrapper">
+          <label for="form-subject">Subject:</label>
+          <input type="text" id="form-subject" placeholder="A title for your email">
+        </div>
+
+        <div class="input-wrapper">
+          <label for="form-comment">Comment:</label>
+          <textarea id="form-comment" placeholder="Please place comment here"></textarea>
+        </div>
+
+        <a href =""><input type="submit" value="Submit your email"></a>  
+
+         </form>
+      
+      </div>
+
+
+
+
+
+  </body>
+</html>
