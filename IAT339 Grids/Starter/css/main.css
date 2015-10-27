@@ -60,11 +60,10 @@
 
 }
 
-.newspaper-signup input[type="text"]{
+.newspaper-signup #text{
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0 auto;
   padding: 0.3em;
-
 }
 
 /* Styling for the navigation button */
@@ -78,6 +77,13 @@
   color: #3e3a39;
   text-decoration: none;
   font-size: 1.05em;
+}
+
+.grid-col-10of10.navigation{
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: #999999;
+  margin-bottom: 0.2em;
 }
 
 .navigation_button:hover, .navigation_button:focus {
@@ -125,6 +131,40 @@
   font-size: 1em;
   text-align: center;
   color: #9b363a;
+}
+
+.slogan{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 1em;
+  border:solid;
+  border-width: 2px;
+}
+
+.infotitle{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  font-size: 0.6em;
+  padding: 0em;
+}
+
+.infotext{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: #999999;
+  font-weight: lighter;
+  text-align: left;
+  font-size: 0.5em;
+  padding: 0em;
 }
 
 .packpack-image h5 {
@@ -268,6 +308,7 @@ h2 {
   text-align: left;
   margin: 0;
 }
+
 
 /*tabs*/
 section {
