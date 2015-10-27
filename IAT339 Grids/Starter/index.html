@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
+    <script rel="javascript" src="css/event.js"></script>
 
   </head>
   <body>
@@ -54,7 +55,7 @@
 
         <div class="navigation_wrapper">
 
-          <a href="" class="navigation_button">
+          <a href="" class="navigation_button" onmouseover="submenuOpen()" onmouseout="submenuClose()">
             <p3>Shop</p3>
           </a>
 
@@ -71,9 +72,41 @@
           </a>
 
         </div>
-
       </div>
     </div>
+
+<!--submenu-->
+<div id="sub-menu" class="grid-col-10of10" onmouseover="submenuOpen()" onmouseout="submenuClose()">
+
+        <div class="grid-col-1of4 submenu-categories">
+            <a href="">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/backpack_white.jpg">
+              <h3>backpack</h3>
+            </a>
+        </div>
+
+        <div class="grid-col-1of4 submenu-categories">
+            <a href="">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/backpack_white.jpg">
+              <h3>backpack</h3>
+            </a>
+        </div>
+
+        <div class="grid-col-1of4 submenu-categories">
+            <a href="">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/backpack_white.jpg">
+              <h3>backpack</h3>
+            </a>
+        </div>
+
+        <div class="grid-col-1of4 submenu-categories">
+            <a href="">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/backpack_white.jpg">
+              <h3>backpack</h3>
+            </a>
+        </div>
+</div>
+
 
        <!--context shot-->
        <div class="grid-col-10of10 main-image">
@@ -160,7 +193,7 @@
               <input id="title" type="button" value="Newspaper Signup"/>
             </div>
           </div>
-          
+
          </div>
 
          <div class="grid-col-1of5 info">
