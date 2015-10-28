@@ -11,9 +11,12 @@
 .grid-col-10of10 {
   width:100%;
   float:left;
-  padding-top: 0.3em;
-  padding-bottom: 0.9em;
   margin-top: 0;
+  background: white;
+}
+
+.grid-col-10of10.bottom-wrapper{
+  background: black;
 }
 
 .headerbar{
@@ -73,10 +76,10 @@
   padding: 0;
 }
 
-
-#sub-menu{
-  margin-top:0em;
+#sub-menu {
+  padding-top:1em;
 }
+
 
 .newspaper-signup{
   float: right;
@@ -279,6 +282,15 @@ body {
 
 .grid-col-1of4.packpack-image {
   width: 50%;
+}
+
+
+.grid-col-1of4.submenu-categories{
+  width:25%;
+}
+
+.submenu-categories img{
+  width: 100%;
 }
 
 
