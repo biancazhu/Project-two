@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My templet</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <script rel="javascript" src="css/event.js"></script>
+
+
+  </head>
+  <body>
+
+    <!--header buttons-->
+    <div class="grid-col-10of10 headerbar" >
+      <div class="headerbar-button-wrapper">
+
+          <div class="headerbar-header-button">
+           <a href=""> 
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/cart.png">
+           </a>
+          </div>
+
+          <div class="headerbar-header-button">
+           <a href=""> 
+           <input type="button" value="Cart"/>
+           </a>
+          </div>
+
+        <div class="headerbar-header-button">
+          <input type="button" value="Sign Up">
+        </div>
+
+          <div class="headerbar-header-button">
+           <input type="button" value="Log In">
+          </div>
+        </div>
+
+    </div>
+
+    <div class="body_margin">
+
+    <!--logo + navigation bar-->
+    <div class="grid-col-10of10 navigation">
+      <div class="grid-col-3of10 navigation-logo">
+          <a href=""><img src="http://www.sfu.ca/~jcw33/iat339/images/zaino.png"></a>
+      </div>
+
+      <div class="grid-col-5of10 navigation-nav">
+
+        <div class="navigation_wrapper">
+
+          <a href="" class="navigation_button" id="shop" onmouseover="submenuOpen()" onmouseout="submenuClose()">
+            <p3>Shop</p3>
+          </a>
+
+          <a href="" class="navigation_button">
+            <p3>About</p3>
+          </a>
+
+          <a href="" class="navigation_button">
+            <p3>Lookbook</p3>
+          </a>
+
+          <a href="" class="navigation_button">
+            <p3>Blog</p3>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+       <!--context shot-->
+       <div class="grid-col-10of10 main-image">
+          <img src="img/company.jpg">
+       </div>
+
+       <!--slogan-->
+      <div class="grid-col-10of10">
+        <h1 class="slogan">We are a brand selling high quality designed backpacks for the people who is student, or those whom loves to travel as a backpacker, photographers, and students. We glad to cooperate with many adorable designers, and appreciated that having the permission to sell their designs.</h1>
+      </div>
+
+      <!--categories-->
+      <div class="grid-col-10of10 categories">
+
+        <div class="grid-col-1of4 categories-image">
+            <a href="">
+              <img src="img/designer4.jpg">
+              <h2>Jack Schewelk</h2>
+
+            </a>
+        </div>
+
+        <div class="grid-col-1of4 categories-image">
+           <a href="">
+              <img src="img/designer3.jpg">
+              <h2>Nando Takasawa</h2>
+
+            </a>  
+        </div>
+
+         <div class="grid-col-1of4 categories-image">
+           <a href="">
+            <img src="img/designer2.jpg">
+            <h2>James Russell</h2>
+          </a>
+        </div>
+
+        <div class="grid-col-1of4 categories-image">
+           <a href="">
+            <img src="img/designer1.jpg">
+            <h3>Marine Barbarra</h3>
+          </a>
+        </div>
+
+      
+      </div>
+
+      <!--company event / updates-->
+      <div class="company_events">
+
+        <div class="grid-col-1of2 events-image">
+            <img id="event1" src="img/map.png">
+            <h2>The Location</h2>
+        </div>
+
+        <div class="grid-col-1of2 events-image">
+         
+            <h2>Contact Us</h2>
+            <h3>Address: 250 - 13450 – 102nd Avenue, Central City Shopping Centre, Surrey, BC V3T 0A3</h3>
+            <h3>Phone: (778) 782 - 3111 </h3>
+
+
+        </div>
+
+      </div>
+    </div>
+      
+
+    <div class="grid-col-10of10 bottompage">
+      <div class="body_margin">
+
+        <div class="grid-col-10of10 bottom-wrapper">
+         <div class="grid-col-3of10 social-media">
+            <div class="icons">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/twitter-icon.png">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/facebook-icon.png">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/instagram-icon.png">
+            </div>
+         </div>
+
+
+          <div class="grid-col-7of10 newspaper">
+
+            <div class="grid-col-1of3 newspaper-signup">
+              <input id="button" type="button" value="Subscribe"/>
+            </div>
+
+            <div class="grid-col-1of3 newspaper-signup">
+              <input id="title" type="button" value="Newspaper Signup"/>
+            </div>
+          </div>
+
+         </div>
+
+         <div class="grid-col-1of5 info">
+          <h2 class="infotitle">INFO</h2>
+          <h3 class="infotext">Our Story</h3>
+          <h3 class="infotext">Policy</h3>
+          <h3 class="infotext">Reward Policy</h3>
+          <h3 class="infotext">Become a Reseller</h3>
+         </div>
+
+         <div class="grid-col-1of5 info">
+          <h2 class="infotitle">LEGAL</h2>
+          <h3 class="infotext">Privacy</h3>
+          <h3 class="infotext">Turns of Use</h3>
+          <h3 class="infotext">Report Counterfeits</h3>
+         </div>
+
+         <div class="grid-col-1of5 info">
+          <h2 class="infotitle">HELP</h2>
+          <h3 class="infotext">Contact Us</h3>
+          <h3 class="infotext">Returns</h3>
+          <h3 class="infotext">Warranty</h3>
+          <h3 class="infotext">Shopping</h3>
+          <h3 class="infotext">FAQ</h3>
+         </div>
+
+         <div class="grid-col-1of5 info">
+          <h2 class="infotitle">MEDIA CHANNELS</h2>
+          <h3 class="infotext">Facebook</h3>
+          <h3 class="infotext">Twitter</h3>
+          <h3 class="infotext">Instagram</h3>
+         </div>
+
+         <div class="grid-col-1of5 info">
+
+          <div class="grid-col-1of5 guarantee">
+            <img src="http://www.sfu.ca/~jcw33/iat339/images/30days.png">
+          </div>
+
+          <div class="grid-col-1of5 guarantee">
+            <img src="http://www.sfu.ca/~jcw33/iat339/images/authentic.png">
+          </div>
+
+         </div>
+
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+  </body>
+</html>

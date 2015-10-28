@@ -1,0 +1,1253 @@
+@import url('http://fonts.googleapis.com/css?family=Quicksand');
+@import url('http://fonts.googleapis.com/css?family=Source Sans Pro');
+
+.header-button{
+  float:right;
+  height:2em;
+  text-align:center;
+  cursor:pointer;
+  background:#CCC; 
+  margin-left:0.2em;
+  -webkit-box-shadow: 0px 0px 17px -4px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 0px 17px -4px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 17px -4px rgba(0,0,0,0.4);
+  border:none;  
+}
+
+.headerbar-header-button input[type="button"]{
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1.3px;
+  font-size:0.7em;
+  color:white;
+  background:transparent;
+  display:inline-block;
+  cursor:pointer;
+  border:none;
+  text-align: center;
+  margin-left: 0.8em;
+  padding: 0.5em;
+  
+}
+
+.newspaper-signup #title{
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1.3px;
+  font-size:0.7em;
+  color:white;
+  background:transparent;
+  display:inline-block;
+  border:none;
+  text-align: center;
+  padding-top: 0.2em;
+  padding-right:1em;
+}
+
+.newspaper-signup #button{
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1.3px;
+  font-size:0.7em;
+  background: #9b363a;
+  color: white;
+  display:inline-block;
+  border:none;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding:0 1em;
+  padding-top: 0.45em;
+  padding-bottom: 0.45em;
+  cursor:pointer;
+
+}
+
+.newspaper-signup #text{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0 auto;
+  padding: 0.3em;
+}
+
+/* Styling for the navigation button */
+.navigation_button {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  display: inline-block;
+  padding-left: 1.5em;
+  padding-top: 0.5em;
+  color: #3e3a39;
+  text-decoration: none;
+  font-size: 1.05em;
+}
+
+.grid-col-10of10.navigation{
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #E6E6E6;
+  margin-bottom: 0em;
+}
+
+.navigation_button:hover, .navigation_button:focus {
+  color: #9b363a;
+}
+
+
+
+
+.hierarchy_button {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  display: inline-block;
+  color: #3e3a39;
+  text-decoration: none;
+  font-size: 1em;
+  padding-right: 2em;
+  padding-bottom: 1em;
+  padding-top: 0em;
+}
+
+.main-image{
+  height: 250px;
+  overflow:hidden;
+  object-fit: cover;
+}
+
+.main-image img{ 
+  width:100%;
+  object-fit: cover; 
+}
+
+.categories-image img:hover{
+  opacity: 0.8;
+}
+
+.headerbar-header-button input[type="button"]:hover{
+  text-decoration: underline;
+
+}
+
+.hyperlink {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  font-size: 1em;
+  text-align: center;
+  color: #9b363a;
+}
+
+.slogan{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.3em;
+  padding: 1.3em;
+  border:solid;
+  border-width: 2px;
+}
+
+.infotitle{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  font-size: 0.6em;
+  padding: 0em;
+}
+
+.infotext{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: #999999;
+  font-weight: lighter;
+  text-align: left;
+  font-size: 0.5em;
+  padding: 0em;
+}
+
+.packpack-image h5 {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.9em;
+  text-align: center;
+  margin: 1.5em;
+  margin-bottom: 4em;
+  margin-top: 1.5em;
+  border: solid;
+  border-width: 1px;
+
+}
+
+.packpack-image h4 {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.7em;
+  text-align: center;
+  margin: 0;
+}
+
+.dimension-number{
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.7em;
+  text-align: center;
+  margin: 0;
+}
+
+.dimension-detail{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.75em;
+  text-align: left;
+  margin: 0;
+  padding-bottom: 0.5%;
+  width: 100%;
+}
+
+
+.dimension-title{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.85em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1em;
+  padding-top: 50%;
+  width: 100%;
+}
+
+.packpack-image h3 {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.0em;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 0.3em;
+  margin: 0;
+}
+
+h3 {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.0em;
+  padding-left: 25%;
+  padding-right: 25%;
+  text-align: center;
+  padding-bottom: 1.8em;
+  margin: 0;
+
+}
+
+
+.add {
+  float: right;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0;
+  border: solid;
+  border-width: 1px;
+  margin: 0;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top:5em;
+  width: 95%;
+}
+
+.add:hover{
+  background: #9b363a;
+  color: white;
+  cursor: pointer;
+}
+
+
+.grid-col-1of2.dropdownBox{
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0;
+  padding-top: 0em;
+  padding-bottom: 0.6em;
+  margin-top:5em;
+  width: 100%;
+}
+
+.grid-col-10of10.cart-dropdownBox{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.6em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.cart-tiem-name{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1em;
+  padding:0;
+  margin: 0;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 25%;
+  text-align: left;
+}
+
+.cart-tiem-price{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 50%;
+  text-align: left;
+}
+
+#quantity {
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 0;
+  width: 50%;
+}
+
+#cart-quantity {
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  font-size: 1.4em;
+  margin: 0;
+  padding: 0;
+  padding-left: 0;
+  padding-top: 50%;
+  padding-bottom: 0.5em;
+
+}
+
+#productdropdown{
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  text-align: center;
+  margin: 0;
+  border-width: 2px;
+  width: 50%;
+  padding-left: 20%;
+}
+
+#cart-productdropdown{
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  text-align: center;
+  margin: 0;
+  border-width: 2px;
+  width: 50%;
+}
+
+.submenu-categories{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.0em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  padding-top: 1em;
+  text-align: center;
+}
+
+
+.cart-tite{
+  float: left;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+}
+
+
+.description-wrapper-big-display h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.description-wrapper-small-display h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 5%;
+}
+
+
+.description-wrapper-small-display h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.0em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 1em;
+}
+
+
+.description-wrapper-big-display h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.0em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  padding-top: 1em;
+}
+
+
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.0em;
+  padding-left: 25%;
+  padding-right: 25%;
+  text-align: center;
+}
+
+.price-header {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.9em;
+  padding: 0;
+  margin: 0;
+  float: right;
+  display: inline;
+  padding-right: 1.4em;
+}
+
+.price-header-sub {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.9em;
+  padding: 0;
+  margin: 0;
+  float: right;
+  display: inline;
+  padding-right: 0.9em;
+}
+
+.price-amount {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.9em;
+  padding: 0;
+  margin: 0;
+  display: inline;
+  float: right;
+  text-align: right;
+}
+
+.price-header-total {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 0;
+  margin: 0;
+  float: right;
+  display: inline;
+  padding-right: 0.9em;
+  padding-top: 0.5em;
+  border-top: solid;
+  border-width: 1px;
+  border-color: #E6E6E6;
+  margin-top: 0.5em;
+}
+
+
+.price-amount-total {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 0;
+  margin: 0;
+  display: inline;
+  float: right;
+  text-align: right;
+  padding-top: 0.5em;
+  border-top: solid;
+  border-width: 1px;
+  border-color: #E6E6E6;
+  margin-top: 0.5em;
+}
+
+.product-describtion p {
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+  line-height: 140%;
+  font-size: 0.85em;
+  text-decoration: none;
+  text-align: left;
+  margin: 0;
+  padding-top: 2em;
+}
+
+.description-wrapper-small-display p {
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  line-height: 140%;
+  font-size: 0.8em;
+  text-decoration: none;
+  text-align: left;
+  margin: 0;
+  padding-top: 2em;
+}
+
+option{
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+}
+
+
+.return{
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.75em;
+  line-height: 140%;
+  text-decoration: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1em;
+
+}
+
+.tab-title{
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  font-size: 0.95em;
+  text-decoration: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  line-height: 140%;
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+}
+
+.star-icon{
+  font-family: 'Source Sans Pro', sans-serif; 
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 0px;
+  text-align: left;
+  display: inline;
+  color: #9b363a;
+  padding-top: 1em;
+}
+
+.star-description{
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 0;
+  font-size: 0.8em;
+  padding-left: 0.5em;
+}
+
+.write-a-review{
+  float: right;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  border:solid;
+  border-width: 1px;
+  padding: 0.3em 2em;
+}
+
+.write-a-review:hover{
+  background: #9b363a;
+  color: white;
+  cursor: pointer;
+}
+
+.submit-a-review{
+  float: right;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  border:solid;
+  border-width: 1px;
+  padding: 0.3em 2em;
+  margin-top:1em;
+  margin-bottom: 1em;
+}
+
+.submit-a-review:hover{
+  background: #9b363a;
+  color: white;
+  cursor: pointer;
+}
+
+.check-out{
+  float: right;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  border:solid;
+  border-width: 1px;
+  padding: 0.3em 2em;
+  margin-top:2em;
+  margin-bottom: 4em;
+}
+
+.check-out:hover{
+  background: #9b363a;
+  color: white;
+  cursor: pointer;
+}
+
+
+.continue-button{
+  float: left;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  border:solid;
+  border-width: 1px;
+  margin-top:50%;
+  padding: 0.3em;
+}
+
+.continue-button:hover{
+  background: #9b363a;
+  color: white;
+  cursor: pointer;
+}
+
+.go-to-cart-button{
+  float: right;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  border:solid;
+  border-width: 1px;
+  margin-top:50%;
+  padding: 0.3em;
+}
+
+.go-to-cart-button:hover{
+  background: #9b363a;
+  color: white;
+  cursor: pointer;
+}
+
+.review-title {
+  text-align: left;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  font-size: 0.9em;
+  padding-top: 0.5em;
+}
+
+.cart-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  display: inline-block;
+  color: #3e3a39;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding-right: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+
+.cart-summary-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  display: inline-block;
+  color: #3e3a39;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 0;
+  margin: 0;
+  padding-right: 2em;
+  padding-bottom: 1em;
+}
+
+.cart-item-price{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.9em;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 25%;
+  text-align: left;
+}
+
+.cart-item {
+  text-align: center;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+  font-size: 1em;
+  padding-top: 10%;
+  color: #999999;
+}
+
+.cart-quantity {
+  text-align: right;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+  font-size: 1em;
+  padding-left: 5%;
+  padding-top: 8%;
+  color: #999999;
+}
+
+.review-date{
+  text-align: left;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+  font-size: 0.7em;
+  padding-top: 0.7em;
+  opacity: 0.5;
+}
+
+.review-content {
+  text-align: left;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.75em;
+  line-height: 140%;
+  padding-top: 1.2em;
+}
+
+#review-box{
+
+  margin-left:25%;
+  position:fixed;
+  margin-top:5%;
+  visibility:hidden;
+  opacity:0;
+  z-index:11;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+
+  -webkit-box-shadow: 0px -1px 23px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -1px 23px -10px rgba(0,0,0,0.75);
+  box-shadow: 0px -1px 23px -10px rgba(0,0,0,0.75); 
+  
+}
+
+#cart-box{
+
+  margin-left:25%;
+  position:fixed;
+  margin-top:5%;
+  visibility:hidden;
+  opacity:0;
+  z-index:11;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+
+  -webkit-box-shadow: 0px -1px 23px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -1px 23px -10px rgba(0,0,0,0.75);
+  box-shadow: 0px -1px 23px -10px rgba(0,0,0,0.75); 
+  
+}
+
+#check-out-box{
+
+  margin-left:25%;
+  position:fixed;
+  margin-top:5%;
+  visibility:hidden;
+  opacity:0;
+  z-index:11;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+
+  -webkit-box-shadow: 0px -1px 23px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -1px 23px -10px rgba(0,0,0,0.75);
+  box-shadow: 0px -1px 23px -10px rgba(0,0,0,0.75); 
+  
+}
+
+
+
+.review-form-title{
+  text-align: left;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  line-height: 150%;
+  font-size: 1em;
+  padding-top: 0.8em;
+}
+
+.form-title{
+  text-align: center;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+  line-height: 150%;
+  font-size: 1em;
+  padding-top: 0.5em;
+}
+
+#form-subject{
+  border: solid;
+  border-color: black;
+}
+
+#form-object{
+  color: #999999;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.7em;
+}
+
+#form-object-first-name{
+  color: #999999;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.7em;
+}
+
+#form-object-last-name{
+  color: #999999;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.7em;
+}
+
+#form-object-response{
+  color: #999999;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.7em;
+  text-align: left;
+
+}
+
+.events-image #event1 {
+  width: 96%;
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.75em;
+  text-decoration: none;
+  text-align: left;
+  margin: 0;
+}
+
+.events-image #event2 {
+  width: 96%;
+  float: right;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.75em;
+  text-decoration: none;
+  text-align: left;
+  margin: 0;
+}
+
+/*tabs*/
+section {
+  display: none;
+  border-top: 1px solid #ddd;
+}
+
+#tab1 {
+  display: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#tab2 {
+  display: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+#tab3 {
+  display: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+label {
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 500;
+  font-size: 0.9em;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+label:before {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-right: 10px;
+}
+
+/*label[for*='1']:before { content: '\f1cb'; }
+label[for*='2']:before { content: '\f17d'; }
+label[for*='3']:before { content: '\f16b'; }
+label[for*='4']:before { content: '\f1a9'; }*/
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid black;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab4:checked ~ #content5 {
+  display: block;
+}
+
+
+.grid-col-1of4 a:link {
+  color: #3e3a39;
+  text-decoration: none;
+}
+
+.grid-col-1of4 a:visited {
+  color: #3e3a39;
+}
+
+.grid-col-1of4 a:hover {
+  color: #9b363a;
+}
+
+.grid-col-1of4 a:active {
+  color: #9b363a;
+}
+
+@media (max-width:1300px) and (min-width: 801px){
+
+  .navigation_button {
+    font-size: 1.0em;
+
+  }
+
+  .slogan{
+  font-size: 1.2em;
+}
+
+.hierarchy_button {
+  font-size: 0.9em;
+}
+
+.dimension-number{
+font-size: 0.75em;
+}
+
+.dimension-detail{
+font-size: 0.75em;
+}
+
+
+.dimension-title{
+font-size: 0.85em;
+}
+
+
+#quantity {
+  width: 55%;
+}
+
+#productdropdown{
+  width: 40%;
+  padding-left: 10%;
+}
+
+.cart-title {
+  font-size: 0.85em;
+ 
+}
+
+.cart-item {
+  font-size: 0.8em;
+}
+
+.cart-quantity {
+  font-size: 0.8em;
+}
+
+.continue-button{
+  font-size: 0.85em;
+}
+
+.go-to-cart-button{
+  font-size: 0.85em;
+}
+
+
+
+
+}
+
+
+@media (max-width:800px) {
+  .navigation_button {
+    display: block;
+    text-align: center;
+    font-size: 0.9em;
+    padding-bottom: 0.9em;
+    padding-left: 0em;
+
+  }
+
+.slogan{
+  font-size: 0.9em;
+}
+
+  h2 {
+  font-size: 0.9em;
+  padding-left: 30%;
+}
+
+.hierarchy_button {
+  font-size: 0.85em;
+}
+
+.dimension-number{
+text-align: center;
+font-size: 0.68em;
+}
+
+.dimension-detail{
+text-align: center;
+font-size: 0.68em;
+}
+
+
+.dimension-title{
+text-align: center;
+font-size: 0.78em;
+}
+
+.cart-title {
+  font-size: 0.75em;
+ 
+}
+
+.cart-item {
+  font-size: 0.7em;
+}
+
+.cart-quantity {
+  font-size: 0.7em;
+}
+
+.continue-button{
+  font-size: 0.7em;
+}
+
+.go-to-cart-button{
+  font-size: 0.7em;
+}
+
+.cart-tiem-name{
+  font-size: 0.7em;
+  padding-top: auto;
+}
+
+#cart-quantity{
+  font-size: 0.7em;
+  padding-top: auto;
+}
+
+.cart-tiem-price{
+  font-size: 0.7em;
+  padding-top: auto;
+}
+
+}
+
+@media (max-width:500px) {
+
+.submenu-categories{
+  font-size: 0.9em;
+}
+
+@media (max-width:400px) {
+
+.submenu-categories{
+  font-size: 0.8em;
+}
+
+}

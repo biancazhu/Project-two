@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My templet</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <script rel="javascript" src="css/event.js"></script>
+
+  </head>
+  <body>
+
+
+    <!--header buttons-->
+    <div class="grid-col-10of10 headerbar">
+      <div class="headerbar-button-wrapper">
+
+          <div class="headerbar-header-button">
+           <a href=""> 
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/cart.png">
+           </a>
+          </div>
+
+          <div class="headerbar-header-button">
+           <a href=""> 
+           <input type="button" value="Cart">
+           </a>
+          </div>
+
+        <div class="headerbar-header-button">
+          <input type="button" value="Sign Up">
+        </div>
+
+          <div class="headerbar-header-button">
+           <input type="button" value="Log In">
+          </div>
+
+        </div>
+
+    </div>
+
+    <div class="body_margin">
+
+    <!--logo + navigation bar-->
+    <div class="grid-col-10of10 navigation">
+      <div class="grid-col-3of10 navigation-logo">
+          <a href=""><img src="http://www.sfu.ca/~jcw33/iat339/images/zaino.png"></a>
+      </div>
+
+      <div class="grid-col-5of10 navigation-nav">
+
+        <div class="navigation_wrapper">
+
+          <a href="" class="navigation_button" onmouseover="submenuOpen()" onmouseout="submenuClose()">
+            <p3>Shop</p3>
+          </a>
+
+          <a href="" class="navigation_button">
+            <p3>About</p3>
+          </a>
+
+          <a href="" class="navigation_button">
+            <p3>Lookbook</p3>
+          </a>
+
+          <a href="" class="navigation_button">
+            <p3>Blog</p3>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+<!--submenu-->
+<div id="sub-menu" class="grid-col-10of10" onmouseover="submenuOpen()" onmouseout="submenuClose()">
+
+        <div class="grid-col-1of4 submenu-categories">
+            <a href="">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/backpack_white.jpg">
+              <h3>backpack</h3>
+            </a>
+        </div>
+
+        <div class="grid-col-1of4 submenu-categories">
+            <a href="">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/backpack_white.jpg">
+              <h3>backpack</h3>
+            </a>
+        </div>
+
+        <div class="grid-col-1of4 submenu-categories">
+            <a href="">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/backpack_white.jpg">
+              <h3>backpack</h3>
+            </a>
+        </div>
+
+        <div class="grid-col-1of4 submenu-categories">
+            <a href="">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/backpack_white.jpg">
+              <h3>backpack</h3>
+            </a>
+        </div>
+</div>
+
+      <div class="grid-col-10of10">
+      <div class="grid-col-5of10 hierarchy">
+
+        <div class="hierarchy_wrapper">
+          <a href="" class="hierarchy_button">
+            <p3>Home</p3>
+          </a>
+          <a href="" class="hierarchy_button">
+          <p3>></p3>
+          </a>
+          <a href="" class="hierarchy_button">
+            <p3>Backpacks</p3>
+          </a>
+          <a href="" class="hierarchy_button">
+          <p3>></p3>
+          </a>
+
+          <a href="" class="hierarchy_button">
+            <p3>GIRONDE</p3>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+      <div class="grid-col-10of10 product-detail">
+
+        <div class="grid-col-1of2 product-detail-image">
+            <img src="http://www.sfu.ca/~jcw33/iat339/images/cc_nile_rucksack-obsidian_front.jpg">
+
+            <div class="display-big">
+            <div class="grid-col-1of4 product-thumbnail">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/isar_rucksack_coral_obsidian_front_1.jpg">
+            </div>
+
+              <div class="grid-col-1of4 product-thumbnail">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/isar_rucksack_coral_obsidian_back_1.jpg">
+            </div>
+
+             <div class="grid-col-1of4 product-thumbnail">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/isar_rucksack_coral_obsidian_side_1.jpg">
+            </div>
+
+            <div class="grid-col-1of4 product-thumbnail">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/isar_rucksack_coral_obsidian_cap_1.jpg">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="grid-col-1of2 product-describtion">
+
+            <div class="display-small">
+            <div class="grid-col-1of4 product-thumbnail">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/isar_rucksack_coral_obsidian_front_1.jpg">
+            </div>
+
+              <div class="grid-col-1of4 product-thumbnail">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/isar_rucksack_coral_obsidian_back_1.jpg">
+            </div>
+
+             <div class="grid-col-1of4 product-thumbnail">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/isar_rucksack_coral_obsidian_side_1.jpg">
+            </div>
+
+            <div class="grid-col-1of4 product-thumbnail">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/isar_rucksack_coral_obsidian_cap_1.jpg">
+            </div>
+          </div>
+
+          <div class="description-wrapper-big-display">
+          <h2>GIRONDE</h2>
+          <h2>Coated Canvas</h2>
+          <h3>CAD$ 260</h3>
+          <p>The GIRONDE is handmade with majority buffalo hide and the elegant outfit is designed by Italian designer Emilio Pucci. The exclusive design has a designated laptop-only section that unfolds to lay flat on the X-ray belt to increase your speed. The interior side pockets can make convenience to compartment you camera equipments in the bag. The padded back and shoulder straps are designed for comfort. The weight of the bag itself is pretty light. The shoulder straps are big and strong that can afford more weight.</p>
+
+            <div class="grid-col-10of10 shopping-wrapper">
+
+              <div class="grid-col-1of2 dropdownBox">  
+                    <p id="quantity"> Quantity:</p>
+                      <select id="productdropdown">
+                        <option value="volvo">1</option>
+                        <option value="saab">2</option>
+                        <option value="mercedes">3</option>
+                        <option value="audi">4</option>
+                        <option value="audi">5</option>
+                      </select>
+              </div>
+
+            <div class="grid-col-1of2 add-to-bag"> 
+
+              <h4 class="add" onclick="cartOpen()">Add to bag</h4>
+
+            </div>
+
+          </div>
+            </div>
+        </div>
+
+      </div>
+
+          <div class="grid-col-10of10">
+          <div class="description-wrapper-small-display">
+          <h2>GIRONDE</h2>
+          <h2>Coated Canvas</h2>
+          <h3>CAD$ 260</h3>
+          <p>The GIRONDE is handmade with majority buffalo hide and the elegant outfit is designed by Italian designer Emilio Pucci. The exclusive design has a designated laptop-only section that unfolds to lay flat on the X-ray belt to increase your speed. The interior side pockets can make convenience to compartment you camera equipments in the bag. The padded back and shoulder straps are designed for comfort. The weight of the bag itself is pretty light. The shoulder straps are big and strong that can afford more weight.</p>
+
+            <div class="grid-col-10of10 shopping-wrapper">
+
+              <div class="grid-col-1of2 dropdownBox">  
+                    <p id="quantity"> Quantity:</p>
+                      <select id="productdropdown">
+                        <option value="volvo">1</option>
+                        <option value="saab">2</option>
+                        <option value="mercedes">3</option>
+                        <option value="audi">4</option>
+                        <option value="audi">5</option>
+                      </select>
+              </div>
+
+            <div class="grid-col-1of2 add-to-bag"> 
+
+              <h4 class="add" onclick="cartOpen()">Add to bag</h4>
+
+            </div>
+
+            </div>
+        </div>
+      </div>
+
+
+ 
+
+      <div class="grid-col-10of10 detail-review-tap">
+        <input id="tab1" type="radio" name="tabs">
+        <label for="tab1">Dimensions</label>
+
+        <input id="tab2" type="radio" name="tabs">
+        <label for="tab2">Return Policy</label>          
+
+        <input id="tab3" type="radio" name="tabs" checked>
+        <label for="tab3">Reviews</label>
+
+
+        <section id="content1">
+          <div class="grid-col-10of10 dimension-tab">   
+
+            <div class="grid-col-1of4 dimension">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/cc_sd_794x1050_nile-rucksack_obsidian-01.jpg">
+              <h4 class="dimension-number">36cm / 14.17"</h4>
+            </div>
+
+            <div class="grid-col-1of4 dimension">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/cc_sd_794x1050_nile-rucksack_obsidian-02.jpg">
+              <h4 class="dimension-number">15 cm / 5.91"</h4>
+            </div>
+
+            <div class="grid-col-1of4 dimension">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/cc_sd_794x1050_nile-rucksack_obsidian-03.jpg">
+              <h4 class="dimension-number">65 cm / 25.59"</h4>
+            </div>
+
+            <div class="grid-col-1of4 dimension">
+              <h2 class="dimension-title">Medium (Laptops up to 15")</h2>
+              <h4 class="dimension-detail">Height: 39 cm / 15.35"</h4>
+              <h4 class="dimension-detail">Width: 27 cm / 10.63"</h4>
+              <h4 class="dimension-detail">Depth: 25 cm / 0.79"</h4>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <section id="content2">
+            <div class="grid-col-1of10 return-info">
+            <h1 class="tab-title">Return policy</h1>
+            <p class="return">
+              If for any reason you find yourself unsatisfied with your purchase, ZAINO provides its customers with Easy Returns. With Easy Returns, items purchased online can be returned to any retail store or shipped back to our warehouse, provided the merchandise is in its original packaging and proof of purchase is presented.
+            </p>
+
+            <h1 class="tab-title">Shipping</h1>
+            <p class="return">
+              Once order has been processed, we are not charging until the package is shipped. You are not able to change the order once it has been processed. However, you can change the shipping options and address before the package is shipped. Once the order is confirmed, you will received a confirmed email, and the package will be sent within two business days. For better experience, we glad to provide you with UPS service. Once the package is shipped, you will received a email with tracking number. If your order does not ship or encounters any delays we will contact you by email. ZAINO will only ship to Canadian addresses.
+            </p>
+          </div>
+        </section>
+
+
+        <section id="content3">
+
+          <div class="grid-col-10of10">
+            <h1 class="tab-title">Reviews</h1>
+          </div>
+
+            <div class="grid-col-10of10 review-header">
+
+            <div class="grid-col-1of2 review-tab">
+            <h2 class="star-icon">&#9733; &#9733; &#9733; &#9733; &#9734; <h3 class="star-description">Based on 2 review</h3></h2>
+            </div>
+
+            <div class="grid-col-1of2 review-tab">
+              <h2 class="write-a-review" onclick="reviewOpen()">Write a review</h2>
+            </div>
+            </div>
+
+            <div class="review-wrapper">
+            <div class="grid-col-10of10 customer-review">
+              <h2 class="star-icon">&#9733; &#9733; &#9733; &#9733; &#9734;</h2>
+              <h3 class="review-title">Excellent bag! Love the quality!</h3>
+              <h4 class="review-date">JACK on Sep 27, 2015</h4>
+              <p class="review-content">This is my second time to buy the bag here. Nice quality! As a gift, my brother really loves it. </p>
+            </div>
+
+            <div class="grid-col-10of10 customer-review">
+              <h2 class="star-icon">&#9733; &#9733; &#9733; &#9733; &#9734;</h2>
+              <h3 class="review-title">More than I expected!</h3>
+              <h4 class="review-date">SAM on Sep 27, 2015</h4>
+              <p class="review-content">I am a photographer, and I need to carry a lot of heavty camera equipments on the route. This bag is really functional that it is big enough to carry my stuff and it is comfortable to carry on. </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+
+           <div id="review-box" class="grid-col-6of10" style="visibility: hidden; opacity: 0; transition: all 0.2s ease-in-out;">
+              <div class="grid-col-10of10 form-header">
+              <h1 class="form-title">Write a review</h1>
+              </div>
+
+              <div class="grid-col-10of10 review-form">
+                <h1 class="review-form-title">Customer information</h1>
+
+                <div class="grid-col-1of2 first-name">
+                <input id="form-object" type="text" placeholder="First name">
+                </div>
+
+                <div class="grid-col-1of2 last-name">
+                <input id="form-object" type="text" placeholder="Last name">
+                </div> 
+
+              </div>
+
+              <div class="grid-col-10of10 review-form">
+                <h1 class="review-form-title">Email</h1>
+                <input id="form-object" type="text" placeholder="Email Address">
+              </div>
+
+              <div class="grid-col-10of10 review-form">
+                <h1 class="review-form-title">Rating</h1>
+                <h2 class="star-icon">&#9734; &#9734; &#9734; &#9734; &#9734;</h2>
+              </div>
+
+                <div class="grid-col-10of10 review-form">
+                <h1 class="review-form-title">Title of the response</h1>
+                <input id="form-object" type="text" placeholder="Give your review a title">
+              </div>
+
+                <div class="grid-col-10of10 review-form">
+                <h1 class="review-form-title">Your response</h1>
+                <input id="form-object-response" type="text" placeholder="Write your comment here">
+                </div>
+
+              <div class="grid-col-10of10 review-form">
+              <h2 class="submit-a-review" onclick="reviewClose()">Submit review</h2>
+              </div>
+
+              </div>
+
+
+           <div id="cart-box" class="grid-col-6of10" style="visibility: hidden; opacity: 0; transition: all 0.2s ease-in-out;">
+              <div class="grid-col-10of10 form-header">
+              <h1 class="form-title">Add to chat</h1>
+              </div>
+
+              <div class="grid-col-10of10 review-form">
+
+                <div class="grid-col-3of10 cart-product-image">
+                  <img src="http://www.sfu.ca/~jcw33/iat339/images/cc_nile_rucksack-obsidian_front.jpg">
+                </div>
+
+                <div class="grid-col-7of10 cart-button">
+
+                  <h1 class="cart-title">The following item has been added to your shopping cart.</h1>
+
+                  <div class="grid-col-1of2 cart-item-name">
+                   <h2 class="cart-item">GIRONDE Coated Canvas Bag </h2>
+                  </div>
+
+                  <div class="grid-col-1of2 cart-quantity-number">
+                  <h3 class="cart-quantity">Quantity: 1</h3> 
+                  </div>
+
+                  <div class="grid-col-1of2 continue-shopping">
+                    <h2 class="continue-button" onclick="cartClose()">Continue shopping</h2>
+                  </div>
+
+                  <div class="grid-col-1of2 go-to-cart">
+                      <a href="">
+                     <h2 class="go-to-cart-button">Go to your cart</h2>
+                      </a>
+                  </div>
+
+                </div>
+
+              </div>
+
+              </div>
+ 
+
+
+
+
+
+    <div class="grid-col-10of10 bottompage">
+      <div class="body_margin">
+
+        <div class="grid-col-10of10 bottom-wrapper">
+         <div class="grid-col-3of10 social-media">
+            <div class="icons">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/twitter-icon.png">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/facebook-icon.png">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/instagram-icon.png">
+            </div>
+         </div>
+
+
+          <div class="grid-col-7of10 newspaper">
+
+            <div class="grid-col-1of3 newspaper-signup">
+              <input id="button" type="button" value="Subscribe">
+            </div>
+
+            <div class="grid-col-1of3 newspaper-signup">
+              <input id="title" type="button" value="Newspaper Signup">
+            </div>
+          </div>
+
+         </div>
+
+         <div class="grid-col-1of5 info">
+          <h2 class="infotitle">INFO</h2>
+          <h3 class="infotext">Our Story</h3>
+          <h3 class="infotext">Policy</h3>
+          <h3 class="infotext">Reward Policy</h3>
+          <h3 class="infotext">Become a Reseller</h3>
+         </div>
+
+         <div class="grid-col-1of5 info">
+          <h2 class="infotitle">LEGAL</h2>
+          <h3 class="infotext">Privacy</h3>
+          <h3 class="infotext">Turns of Use</h3>
+          <h3 class="infotext">Report Counterfeits</h3>
+         </div>
+
+         <div class="grid-col-1of5 info">
+          <h2 class="infotitle">HELP</h2>
+          <h3 class="infotext">Contact Us</h3>
+          <h3 class="infotext">Returns</h3>
+          <h3 class="infotext">Warranty</h3>
+          <h3 class="infotext">Shopping</h3>
+          <h3 class="infotext">FAQ</h3>
+         </div>
+
+         <div class="grid-col-1of5 info">
+          <h2 class="infotitle">MEDIA CHANNELS</h2>
+          <h3 class="infotext">Facebook</h3>
+          <h3 class="infotext">Twitter</h3>
+          <h3 class="infotext">Instagram</h3>
+         </div>
+
+         <div class="grid-col-1of5 info">
+
+          <div class="grid-col-1of5 guarantee">
+            <img src="http://www.sfu.ca/~jcw33/iat339/images/30days.png">
+          </div>
+
+          <div class="grid-col-1of5 guarantee">
+            <img src="http://www.sfu.ca/~jcw33/iat339/images/authentic.png">
+          </div>
+
+         </div>
+
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+  </body>
+</html>

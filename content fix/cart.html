@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My templet</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <script rel="javascript" src="css/event.js"></script>
+    <script src="js/jquery.js"></script>
+ 
+
+  </head>
+  <body>
+
+
+    <!--header buttons-->
+    <div class="grid-col-10of10 headerbar">
+      <div class="headerbar-button-wrapper">
+
+          <div class="headerbar-header-button">
+           <a href=""> 
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/cart.png">
+           </a>
+          </div>
+
+          <div class="headerbar-header-button">
+           <a href=""> 
+           <input type="button" value="Cart"/>
+           </a>
+          </div>
+
+        <div class="headerbar-header-button">
+          <input type="button" value="Sign Up">
+        </div>
+
+          <div class="headerbar-header-button">
+           <input type="button" value="Log In">
+          </div>
+
+        </div>
+
+    </div>
+
+    <div class="body_margin">
+
+    <!--logo + navigation bar-->
+    <div class="grid-col-10of10 navigation">
+      <div class="grid-col-3of10 navigation-logo">
+          <a href=""><img src="http://www.sfu.ca/~jcw33/iat339/images/zaino.png"></a>
+      </div>
+
+      <div class="grid-col-5of10 navigation-nav">
+
+        <div class="navigation_wrapper">
+
+          <a href="" class="navigation_button" onmouseover="submenuOpen()" onmouseout="submenuClose()">
+            <p3>Shop</p3>
+          </a>
+
+          <a href="" class="navigation_button">
+            <p3>About</p3>
+          </a>
+
+          <a href="" class="navigation_button">
+            <p3>Lookbook</p3>
+          </a>
+
+          <a href="" class="navigation_button">
+            <p3>Blog</p3>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+<!--submenu-->
+<div id="sub-menu" class="grid-col-10of10" onmouseover="submenuOpen()" onmouseout="submenuClose()">
+
+        <div class="grid-col-1of4 submenu-categories">
+            <a href="">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/backpack_white.jpg">
+              <h3>backpack</h3>
+            </a>
+        </div>
+
+        <div class="grid-col-1of4 submenu-categories">
+            <a href="">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/backpack_white.jpg">
+              <h3>backpack</h3>
+            </a>
+        </div>
+
+        <div class="grid-col-1of4 submenu-categories">
+            <a href="">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/backpack_white.jpg">
+              <h3>backpack</h3>
+            </a>
+        </div>
+
+        <div class="grid-col-1of4 submenu-categories">
+            <a href="">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/backpack_white.jpg">
+              <h3>backpack</h3>
+            </a>
+        </div>
+</div>
+
+    <div class="grid-col-10of10 cart-summary">
+      <h1 class="cart-summary-title">Cart Summary</h1>
+    </div>
+
+    <div class="grid-col-10of10 cart-summary-item">
+
+      <div class="grid-col-2of10 cart-image">
+          <img src="http://www.sfu.ca/~jcw33/iat339/images/cc_nile_rucksack-obsidian_front.jpg">
+      </div>
+
+      <div class="grid-col-3of10 cart-name">
+          <h2 class="cart-tiem-name">RISS Coated Canvas Bag</h2>
+      </div>
+
+      <div class="grid-col-3of10 cart-quantity-number">
+
+
+          <div class="grid-col-10of10 cart-dropdownBox">  
+              <h2 id="cart-quantity"> Quantity:</h2>
+          </div>
+
+          <div class="grid-col-10of10 cart-dropdownBox">  
+                 <select id="cart-productdropdown">
+                    <option class="option" value="1">1</option>
+                    <option class="option" value="2">2</option>
+                    <option class="option" value="3">3</option>
+                    <option class="option" value="4">4</option>
+                    <option class="option" value="5">5</option>
+                  </select>
+          </div>
+      </div>
+
+      <div class="grid-col-1of10 cart-price-number">
+          <h2 class="cart-tiem-price">CAD$ 260</h2>
+      </div>
+
+    </div>
+
+
+
+        <div class="grid-col-10of10 cart-summary-item">
+
+      <div class="grid-col-2of10 cart-image">
+          <img src="http://www.sfu.ca/~jcw33/iat339/images/cc_nile_rucksack-obsidian_front.jpg">
+      </div>
+
+      <div class="grid-col-3of10 cart-name">
+          <h2 class="cart-tiem-name">GIRONDE Coated Canvas Bag</h2>
+      </div>
+
+      <div class="grid-col-3of10 cart-quantity-number">
+
+
+          <div class="grid-col-10of10 cart-dropdownBox">  
+              <h2 id="cart-quantity"> Quantity:</h2>
+          </div>
+
+          <div class="grid-col-10of10 cart-dropdownBox">  
+                 <select id="cart-productdropdown">
+                    <option class="option" value="1">1</option>
+                    <option class="option" value="2">2</option>
+                    <option class="option" value="3">3</option>
+                    <option class="option" value="4">4</option>
+                    <option class="option" value="5">5</option>
+                  </select>
+          </div>
+      </div>
+
+      <div class="grid-col-1of10 cart-price-number">
+          <h2 class="cart-tiem-price">CAD$ 260</h2>
+      </div>
+
+    </div>
+
+    <div class="grid-col-10of10 order-button">
+        <h3 class="price-amount">520.00 CAD</h3> 
+        <h2 class="price-header-sub">Subtotal </h2>
+    </div>
+
+    <div class="grid-col-10of10 order-button">
+        <h3 class="price-amount">36.00 CAD</h3> 
+        <h2 class="price-header">PST-BC</h2>
+    </div>
+
+
+    <div class="grid-col-10of10 order-button">
+        <h3 class="price-amount">26.00 CAD</h3> 
+        <h2 class="price-header">GST-BC</h2>
+    </div>
+
+
+    <div class="grid-col-10of10 order-button-total">
+        <h3 class="price-amount-total">582.00 CAD</h3> 
+        <h2 class="price-header-total">Order total </h2>
+    </div>
+
+        <div class="grid-col-10of10">
+        <h2 class="check-out" onclick="billOpen()">Check out</h2>
+        </div>
+
+      </div>
+
+
+           <div id="check-out-box" class="grid-col-6of10" style="visibility: hidden; opacity: 0; transition: all 0.2s ease-in-out;">
+              <div class="grid-col-10of10 form-header">
+              <h1 class="form-title">Check out</h1>
+              </div>
+
+              <div class="grid-col-10of10 review-form">
+                <h1 class="review-form-title">Customer information</h1>
+
+                <div class="grid-col-1of2 first-name">
+                <input id="form-object" type="text" placeholder="First name">
+                </div>
+
+                <div class="grid-col-1of2 last-name">
+                <input id="form-object" type="text" placeholder="Last name">
+                </div> 
+
+              </div>
+
+              <div class="grid-col-10of10 review-form">
+                <h1 class="review-form-title">Email</h1>
+                <input id="form-object" type="text" placeholder="Email Address">
+              </div>
+
+              <div class="grid-col-10of10 review-form">
+                <h1 class="review-form-title">Shipping address</h1>
+                <input id="form-object" type="text" placeholder="Address">
+
+                <div class="grid-col-6of10 city">
+                <input id="form-object" type="text" placeholder="City">
+                </div>
+
+                <div class="grid-col-4of10 country">
+                <input id="form-object" type="text" placeholder="Country">
+                </div>  
+
+                <div class="grid-col-6of10 province">
+                  <select id="cart-productdropdown">
+                    <option value="volvo">Province</option>
+                    <option value="saab">2</option>
+                    <option value="mercedes">3</option>
+                    <option value="audi">4</option>
+                    <option value="audi">5</option>
+                  </select>
+                </div>
+
+                <div class="grid-col-4of10 postal-code">
+                <input id="form-object" type="text" placeholder="Postal code">
+                </div>  
+              </div>
+
+              <div class="grid-col-10of10 review-form">
+                <h1 class="review-form-title">Phone number</h1>
+                <input id="form-object" type="text" placeholder="Phone number">
+
+                <h1 class="review-form-title">Payment with</h1>
+                  <input type="radio"> paypel <br /> 
+                  <input type="radio"> creditcard <br />
+
+              </div>
+
+
+              <div class="grid-col-10of10">
+               <a class="check-out" href="" onclick="billClose()">Submit</a>
+              </div>
+
+
+              </div>
+
+
+
+    <div class="grid-col-10of10 bottompage">
+      <div class="body_margin">
+
+        <div class="grid-col-10of10 bottom-wrapper">
+         <div class="grid-col-3of10 social-media">
+            <div class="icons">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/twitter-icon.png">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/facebook-icon.png">
+              <img src="http://www.sfu.ca/~jcw33/iat339/images/instagram-icon.png">
+            </div>
+         </div>
+
+
+          <div class="grid-col-7of10 newspaper">
+
+            <div class="grid-col-1of3 newspaper-signup">
+              <input id="button" type="button" value="Subscribe"/>
+            </div>
+
+            <div class="grid-col-1of3 newspaper-signup">
+              <input id="title" type="button" value="Newspaper Signup"/>
+            </div>
+          </div>
+
+         </div>
+
+         <div class="grid-col-1of5 info">
+          <h2 class="infotitle">INFO</h2>
+          <h3 class="infotext">Our Story</h3>
+          <h3 class="infotext">Policy</h3>
+          <h3 class="infotext">Reward Policy</h3>
+          <h3 class="infotext">Become a Reseller</h3>
+         </div>
+
+         <div class="grid-col-1of5 info">
+          <h2 class="infotitle">LEGAL</h2>
+          <h3 class="infotext">Privacy</h3>
+          <h3 class="infotext">Turns of Use</h3>
+          <h3 class="infotext">Report Counterfeits</h3>
+         </div>
+
+         <div class="grid-col-1of5 info">
+          <h2 class="infotitle">HELP</h2>
+          <h3 class="infotext">Contact Us</h3>
+          <h3 class="infotext">Returns</h3>
+          <h3 class="infotext">Warranty</h3>
+          <h3 class="infotext">Shopping</h3>
+          <h3 class="infotext">FAQ</h3>
+         </div>
+
+         <div class="grid-col-1of5 info">
+          <h2 class="infotitle">MEDIA CHANNELS</h2>
+          <h3 class="infotext">Facebook</h3>
+          <h3 class="infotext">Twitter</h3>
+          <h3 class="infotext">Instagram</h3>
+         </div>
+
+         <div class="grid-col-1of5 info">
+
+          <div class="grid-col-1of5 guarantee">
+            <img src="http://www.sfu.ca/~jcw33/iat339/images/30days.png">
+          </div>
+
+          <div class="grid-col-1of5 guarantee">
+            <img src="http://www.sfu.ca/~jcw33/iat339/images/authentic.png">
+          </div>
+
+         </div>
+
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+  </body>
+</html>
