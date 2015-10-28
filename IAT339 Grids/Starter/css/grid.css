@@ -90,11 +90,17 @@
   width:60%;
   margin-left:20%;
   margin-top:3%;
+ 
+}
 
+#cart-box{
+  width:60%;
+  margin-left:20%;
+  margin-top:3%;
   
 }
 
-.grid-col-10of10.review-box-header{
+.grid-col-10of10.form-header{
   width: 100%;
   background: black;
   height: 50px;
@@ -155,6 +161,7 @@
   padding-bottom: 0.5em;
 }
 
+
 .review-wrapper{
   padding-bottom: 20em;
 }
@@ -208,6 +215,50 @@ width: 100%;
 .headerbar-header-button img {
   width: 80%;
   padding-top: 0.3em;
+}
+
+.grid-col-3of10.cart-product-image{
+  width: 20%;
+  float: left;
+}
+
+.grid-col-7of10.cart-button{
+  width: 60%;
+  float: right;
+}
+
+.grid-col-1of2.continue-shopping{
+  width: 40%;
+  float: left;
+}
+
+.grid-col-1of2.go-to-cart{
+    width: 40%;
+    float: right;
+}
+
+.continue-button{
+  width: 100%;
+}
+
+.go-to-cart-button{
+  width: 100%;
+}
+
+.grid-col-1of2.cart-item-name{
+  width: 70%;
+  float: left;
+  padding-top: 5%;
+}
+
+.grid-col-1of2.cart-quantity-number{
+  width: 30%;
+  float: left;
+  padding-top: 5%;
+}
+
+.cart-product-image img{
+  width: 100%;
 }
 
 .grid-col-10of10.main-image{
@@ -469,6 +520,26 @@ body {
   margin-top:10%; 
 }
 
+#cart-box{
+  width:80%;
+  margin-left:10%;
+  margin-top:10%; 
+}
+
+#form-object-first-name{
+  width: 100%;
+  float: left;
+  padding: 0.3em;
+  margin-bottom: 0.5em;
+}
+
+#form-object-last-name{
+  width: 100%;
+  float: left;
+  padding: 0.3em;
+}
+
+
 
 }
 
@@ -515,6 +586,11 @@ body {
   margin-top:8%; 
 }
 
+#cart-box{
+  width:84%;
+  margin-left:8%;
+  margin-top:8%; 
+}
 
 
 }

@@ -531,6 +531,50 @@ h2 {
   cursor: pointer;
 }
 
+.continue-button{
+  float: left;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  border:solid;
+  border-width: 1px;
+  margin-top:43%;
+  padding: 0.3em;
+}
+
+.continue-button:hover{
+  background: #9b363a;
+  color: white;
+  cursor: pointer;
+}
+
+.go-to-cart-button{
+  float: right;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  border:solid;
+  border-width: 1px;
+  margin-top:43%;
+  padding: 0.3em;
+}
+
+.go-to-cart-button:hover{
+  background: #9b363a;
+  color: white;
+  cursor: pointer;
+}
+
 .review-title {
   text-align: left;
   color: black;
@@ -542,6 +586,46 @@ h2 {
   letter-spacing: 1.2px;
   font-size: 0.9em;
   padding-top: 0.5em;
+}
+
+.cart-title {
+  text-align: left;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  font-size: 1em;
+  padding-top: 8%;
+}
+
+.cart-item {
+  text-align: left;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+  font-size: 0.8em;
+  padding-top: 10%;
+}
+
+.cart-quantity {
+  text-align: left;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+  font-size: 0.8em;
+  padding-left: 5%;
+  padding-top: 10%;
 }
 
 .review-date{
@@ -590,6 +674,26 @@ h2 {
   
 }
 
+#cart-box{
+
+  margin-left:25%;
+  position:fixed;
+  margin-top:5%;
+  visibility:hidden;
+  opacity:0;
+  z-index:11;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+
+  -webkit-box-shadow: 0px -1px 23px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -1px 23px -10px rgba(0,0,0,0.75);
+  box-shadow: 0px -1px 23px -10px rgba(0,0,0,0.75); 
+  
+}
+
+
+
 .review-form-title{
   text-align: left;
   color: black;
@@ -604,7 +708,7 @@ h2 {
   padding-top: 0.8em;
 }
 
-.review-box-title{
+.form-title{
   text-align: center;
   color: white;
   font-family: 'Source Sans Pro', sans-serif; 
@@ -803,6 +907,30 @@ font-size: 0.85em;
   padding-left: 10%;
 }
 
+.cart-title {
+  font-size: 0.9em;
+ 
+}
+
+.cart-item {
+  font-size: 0.8em;
+}
+
+.cart-quantity {
+  font-size: 0.8em;
+}
+
+.continue-button{
+  font-size: 0.85em;
+}
+
+.go-to-cart-button{
+  font-size: 0.85em;
+}
+
+
+
+
 }
 
 
@@ -843,6 +971,27 @@ font-size: 0.68em;
 .dimension-title{
 text-align: center;
 font-size: 0.78em;
+}
+
+.cart-title {
+  font-size: 0.8em;
+ 
+}
+
+.cart-item {
+  font-size: 0.7em;
+}
+
+.cart-quantity {
+  font-size: 0.7em;
+}
+
+.continue-button{
+  font-size: 0.8em;
+}
+
+.go-to-cart-button{
+  font-size: 0.8em;
 }
 
 
