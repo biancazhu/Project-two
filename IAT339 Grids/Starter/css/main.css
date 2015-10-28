@@ -102,6 +102,8 @@
   text-decoration: none;
   font-size: 1em;
   padding-right: 2em;
+  padding-bottom: 1em;
+  padding-top: 0em;
 }
 
 .main-image{
@@ -195,6 +197,44 @@
   margin: 0;
 }
 
+.dimension-number{
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.7em;
+  text-align: center;
+  margin: 0;
+}
+
+.dimension-detail{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.8em;
+  text-align: left;
+  margin: 0;
+  padding-bottom: 0.7%;
+  width: 100%;
+}
+
+
+.dimension-title{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.9em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1em;
+  padding-top: 25%;
+  width: 100%;
+}
+
 .packpack-image h3 {
 
   font-family: 'Source Sans Pro', sans-serif;
@@ -267,7 +307,7 @@ h3 {
 }
 
 
-.product-describtion h2 {
+.product-description h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bolder;
   letter-spacing: 1.5px;
@@ -277,6 +317,31 @@ h3 {
   margin: 0;
   padding: 0;
 }
+
+.description-wrapper-small-display h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 5%;
+}
+
+.description-wrapper-small-display h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.0em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 1em;
+}
+
 
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -370,7 +435,8 @@ input:checked + label {
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3,
-#tab4:checked ~ #content4 {
+#tab4:checked ~ #content4,
+#tab4:checked ~ #content5 {
   display: block;
 }
 
@@ -403,6 +469,10 @@ input:checked + label {
   font-size: 1.2em;
 }
 
+.hierarchy_button {
+  font-size: 0.9em;
+}
+
 }
 
 
@@ -423,6 +493,10 @@ input:checked + label {
   h2 {
   font-size: 0.9em;
   padding-left: 30%;
+}
+
+.hierarchy_button {
+  font-size: 0.85em;
 }
 
 
