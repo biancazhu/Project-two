@@ -716,7 +716,7 @@ h2 {
   font-size: 0.9em;
   border:solid;
   border-width: 1px;
-  margin-top:43%;
+  margin-top:50%;
   padding: 0.3em;
 }
 
@@ -738,7 +738,7 @@ h2 {
   font-size: 0.9em;
   border:solid;
   border-width: 1px;
-  margin-top:43%;
+  margin-top:50%;
   padding: 0.3em;
 }
 
@@ -810,12 +810,13 @@ h2 {
   margin: 0;
   font-weight: lighter;
   letter-spacing: 1.2px;
-  font-size: 0.8em;
+  font-size: 1em;
   padding-top: 10%;
+  color: #999999;
 }
 
 .cart-quantity {
-  text-align: center;
+  text-align: right;
   color: black;
   font-family: 'Source Sans Pro', sans-serif; 
   display: inline;
@@ -823,9 +824,10 @@ h2 {
   margin: 0;
   font-weight: lighter;
   letter-spacing: 1.2px;
-  font-size: 0.8em;
+  font-size: 1em;
   padding-left: 5%;
   padding-top: 8%;
+  color: #999999;
 }
 
 .review-date{
@@ -1108,7 +1110,7 @@ font-size: 0.85em;
 }
 
 .cart-title {
-  font-size: 0.9em;
+  font-size: 0.85em;
  
 }
 
@@ -1174,7 +1176,7 @@ font-size: 0.78em;
 }
 
 .cart-title {
-  font-size: 0.8em;
+  font-size: 0.75em;
  
 }
 
@@ -1187,11 +1189,11 @@ font-size: 0.78em;
 }
 
 .continue-button{
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 .go-to-cart-button{
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 .cart-tiem-name{
