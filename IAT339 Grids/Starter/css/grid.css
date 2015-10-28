@@ -104,6 +104,12 @@
   width: 50%;
 }
 
+.grid-col-1of10.return-info{
+  padding: 0;
+  margin: 0;
+  padding-bottom: 4em;
+}
+
 .navigation-nav {
   float: right;
   padding-bottom: 2em;
@@ -377,6 +383,12 @@ body {
 
 .description-wrapper-small-display.add-to-bag{
   width: 50%;
+}
+
+.grid-col-1of10.return-info{
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 
