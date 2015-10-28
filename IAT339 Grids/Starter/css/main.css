@@ -286,6 +286,7 @@ h3 {
 .add:hover{
   background: #9b363a;
   color: white;
+  cursor: pointer;
 }
 
 
@@ -439,12 +440,13 @@ h2 {
   font-weight: lighter;
   letter-spacing: 1px;
   font-size: 0.75em;
+  line-height: 140%;
   text-decoration: none;
   text-align: left;
   margin: 0;
   padding: 0;
   padding-bottom: 1em;
-  line-height: 140%;
+
 }
 
 .tab-title{
@@ -503,6 +505,30 @@ h2 {
 .write-a-review:hover{
   background: #9b363a;
   color: white;
+  cursor: pointer;
+}
+
+.submit-a-review{
+  float: right;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  border:solid;
+  border-width: 1px;
+  padding: 0.3em 2em;
+  margin-top:1em;
+  margin-bottom: 1em;
+}
+
+.submit-a-review:hover{
+  background: #9b363a;
+  color: white;
+  cursor: pointer;
 }
 
 .review-title {
@@ -540,10 +566,95 @@ h2 {
   padding: 0;
   margin: 0;
   font-weight: lighter;
-  letter-spacing: 1.2px;
-  line-height: 150%;
-  font-size: 0.8em;
+  letter-spacing: 1px;
+  font-size: 0.75em;
+  line-height: 140%;
   padding-top: 1.2em;
+}
+
+#review-box{
+
+  margin-left:25%;
+  position:fixed;
+  margin-top:5%;
+  visibility:hidden;
+  opacity:0;
+  z-index:11;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+
+  -webkit-box-shadow: 0px -1px 23px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -1px 23px -10px rgba(0,0,0,0.75);
+  box-shadow: 0px -1px 23px -10px rgba(0,0,0,0.75); 
+  
+}
+
+.review-form-title{
+  text-align: left;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  line-height: 150%;
+  font-size: 1em;
+  padding-top: 0.8em;
+}
+
+.review-box-title{
+  text-align: center;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+  line-height: 150%;
+  font-size: 1em;
+  padding-top: 0.5em;
+}
+
+#form-subject{
+  border: solid;
+  border-color: black;
+}
+
+#form-object{
+  color: #999999;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.7em;
+}
+
+#form-object-first-name{
+  color: #999999;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.7em;
+}
+
+#form-object-last-name{
+  color: #999999;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.7em;
+}
+
+#form-object-response{
+  color: #999999;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.7em;
+  text-align: left;
+
 }
 
 .events-image #event1 {
@@ -576,10 +687,22 @@ section {
   border-top: 1px solid #ddd;
 }
 
-input {
+#tab1 {
   display: none;
   font-family: 'Source Sans Pro', sans-serif;
 }
+
+#tab2 {
+  display: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+#tab3 {
+  display: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 
 label {
   font-family: 'Source Sans Pro', sans-serif;

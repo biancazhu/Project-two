@@ -15,6 +15,7 @@
   background: white;
 }
 
+
 .grid-col-10of10.bottom-wrapper{
   background: black;
 }
@@ -43,6 +44,7 @@
 .grid-col-1of2 {
   width: 50%;
 }
+
 
 .grid-col-3of10.social-media{
   width: 30%;
@@ -82,6 +84,20 @@
 
 #sub-menu {
   padding-top:1.5em;
+}
+
+#review-box{
+  width:60%;
+  margin-left:20%;
+  margin-top:3%;
+
+  
+}
+
+.grid-col-10of10.review-box-header{
+  width: 100%;
+  background: black;
+  height: 50px;
 }
 
 .grid-col-1of2.product-thumbnail{
@@ -130,6 +146,15 @@
   border-color: #E6E6E6;
 }
 
+
+.grid-col-10of10.review-form{
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background:white;
+  padding-bottom: 0.5em;
+}
+
 .review-wrapper{
   padding-bottom: 20em;
 }
@@ -145,6 +170,29 @@
 
 .nav_button{
   padding-left: 3em;
+}
+
+#form-object{
+  width: 100%;
+  display: inline;
+  padding: 0.3em;
+}
+
+#form-object-response{
+  width: 100%;
+  padding-bottom: 200px;
+}
+
+#form-object-first-name{
+  width: 95%;
+  float: left;
+  padding: 0.3em;
+}
+
+#form-object-last-name{
+  width: 95%;
+  float: right;
+  padding: 0.3em;
 }
 
 .grid-col-10of10.product-detail{
@@ -415,6 +463,12 @@ body {
   padding-right: 10%;
 }
 
+#review-box{
+  width:80%;
+  margin-left:10%;
+  margin-top:10%; 
+}
+
 
 }
 
@@ -453,6 +507,12 @@ body {
     width: 84%;
     margin-left: 8%;
     margin-right: 8%; 
+}
+
+#review-box{
+  width:84%;
+  margin-left:8%;
+  margin-top:8%; 
 }
 
 
