@@ -305,8 +305,44 @@ h3 {
   width: 100%;
 }
 
+.grid-col-10of10.cart-dropdownBox{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.6em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
 
+.cart-tiem-name{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1em;
+  padding:0;
+  margin: 0;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 25%;
+  text-align: left;
+}
 
+.cart-tiem-price{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 50%;
+  text-align: left;
+}
 
 #quantity {
   float: left;
@@ -318,8 +354,23 @@ h3 {
   text-align: center;
   margin: 0;
   padding: 0;
-  padding-top: 3%;
+  padding-top: 0;
   width: 50%;
+}
+
+#cart-quantity {
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  font-size: 1.4em;
+  margin: 0;
+  padding: 0;
+  padding-left: 0;
+  padding-top: 50%;
+  padding-bottom: 0.5em;
+
 }
 
 #productdropdown{
@@ -330,6 +381,15 @@ h3 {
   border-width: 2px;
   width: 50%;
   padding-left: 20%;
+}
+
+#cart-productdropdown{
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  text-align: center;
+  margin: 0;
+  border-width: 2px;
+  width: 50%;
 }
 
 .submenu-categories{
@@ -343,6 +403,19 @@ h3 {
   padding: 0;
   padding-top: 1em;
   text-align: center;
+}
+
+
+.cart-tite{
+  float: left;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 0.9em;
 }
 
 
@@ -406,6 +479,82 @@ h2 {
   padding-left: 25%;
   padding-right: 25%;
   text-align: center;
+}
+
+.price-header {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.9em;
+  padding: 0;
+  margin: 0;
+  float: right;
+  display: inline;
+  padding-right: 1.4em;
+}
+
+.price-header-sub {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.9em;
+  padding: 0;
+  margin: 0;
+  float: right;
+  display: inline;
+  padding-right: 0.9em;
+}
+
+.price-amount {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.9em;
+  padding: 0;
+  margin: 0;
+  display: inline;
+  float: right;
+  text-align: right;
+}
+
+.price-header-total {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 0;
+  margin: 0;
+  float: right;
+  display: inline;
+  padding-right: 0.9em;
+  padding-top: 0.5em;
+  border-top: solid;
+  border-width: 1px;
+  border-color: #E6E6E6;
+  margin-top: 0.5em;
+}
+
+
+.price-amount-total {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 0;
+  margin: 0;
+  display: inline;
+  float: right;
+  text-align: right;
+  padding-top: 0.5em;
+  border-top: solid;
+  border-width: 1px;
+  border-color: #E6E6E6;
+  margin-top: 0.5em;
 }
 
 .product-describtion p {
@@ -531,6 +680,30 @@ h2 {
   cursor: pointer;
 }
 
+.check-out{
+  float: right;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif; 
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  border:solid;
+  border-width: 1px;
+  padding: 0.3em 2em;
+  margin-top:2em;
+  margin-bottom: 4em;
+}
+
+.check-out:hover{
+  background: #9b363a;
+  color: white;
+  cursor: pointer;
+}
+
+
 .continue-button{
   float: left;
   color: black;
@@ -589,20 +762,47 @@ h2 {
 }
 
 .cart-title {
-  text-align: left;
-  color: black;
-  font-family: 'Source Sans Pro', sans-serif; 
-  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  display: inline-block;
+  color: #3e3a39;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding-right: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+
+.cart-summary-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  display: inline-block;
+  color: #3e3a39;
+  text-decoration: none;
+  font-size: 1.1em;
   padding: 0;
   margin: 0;
+  padding-right: 2em;
+  padding-bottom: 1em;
+}
+
+.cart-item-price{
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
-  letter-spacing: 1.2px;
-  font-size: 1em;
-  padding-top: 8%;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 0.9em;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 25%;
+  text-align: left;
 }
 
 .cart-item {
-  text-align: left;
+  text-align: center;
   color: black;
   font-family: 'Source Sans Pro', sans-serif; 
   display: inline;
@@ -615,7 +815,7 @@ h2 {
 }
 
 .cart-quantity {
-  text-align: left;
+  text-align: center;
   color: black;
   font-family: 'Source Sans Pro', sans-serif; 
   display: inline;
@@ -625,7 +825,7 @@ h2 {
   letter-spacing: 1.2px;
   font-size: 0.8em;
   padding-left: 5%;
-  padding-top: 10%;
+  padding-top: 8%;
 }
 
 .review-date{
@@ -994,6 +1194,20 @@ font-size: 0.78em;
   font-size: 0.8em;
 }
 
+.cart-tiem-name{
+  font-size: 0.7em;
+  padding-top: auto;
+}
+
+#cart-quantity{
+  font-size: 0.7em;
+  padding-top: auto;
+}
+
+.cart-tiem-price{
+  font-size: 0.7em;
+  padding-top: auto;
+}
 
 }
 
