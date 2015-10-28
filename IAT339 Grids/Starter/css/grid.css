@@ -289,10 +289,16 @@ body {
   width:25%;
 }
 
-.submenu-categories img{
-  width: 100%;
+
+
+@media (max-width:500px) {
+
+.grid-col-1of4.submenu-categories{
+  width:25%;
 }
 
+
+}
 
 
 }
