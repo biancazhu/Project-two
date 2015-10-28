@@ -213,10 +213,10 @@
   font-weight: lighter;
   letter-spacing: 1.5px;
   text-decoration: none;
-  font-size: 0.8em;
+  font-size: 0.75em;
   text-align: left;
   margin: 0;
-  padding-bottom: 0.7%;
+  padding-bottom: 0.5%;
   width: 100%;
 }
 
@@ -226,12 +226,12 @@
   font-weight: bold;
   letter-spacing: 1.5px;
   text-decoration: none;
-  font-size: 0.9em;
+  font-size: 0.85em;
   text-align: left;
   margin: 0;
   padding: 0;
   padding-bottom: 1em;
-  padding-top: 25%;
+  padding-top: 50%;
   width: 100%;
 }
 
@@ -265,7 +265,8 @@ h3 {
 
 
 .add {
-  float: none;
+  float: right;
+  color: black;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: lighter;
   letter-spacing: 1.5px;
@@ -275,22 +276,59 @@ h3 {
   margin: 0;
   border: solid;
   border-width: 1px;
-  padding-top: 0.8em;
-  padding-bottom: 0.6em;
+  margin: 0;
+  padding-top: 3%;
+  padding-bottom: 3%;
   margin-top:5em;
+  width: 95%;
+}
+
+.add:hover{
+  background: #9b363a;
+  color: white;
 }
 
 
-.product-describtion h3 {
+.grid-col-1of2.dropdownBox{
+  float: left;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: lighter;
   letter-spacing: 1.5px;
   text-decoration: none;
-  font-size: 1.0em;
-  text-align: left;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0;
+  padding-top: 0em;
+  padding-bottom: 0.6em;
+  margin-top:5em;
+  width: 100%;
+}
+
+
+
+
+#quantity {
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1em;
+  text-align: center;
   margin: 0;
   padding: 0;
-  padding-top: 1em;
+  padding-top: 3%;
+  width: 50%;
+}
+
+#productdropdown{
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  text-align: center;
+  margin: 0;
+  border-width: 2px;
+  width: 50%;
+  padding-left: 20%;
 }
 
 .submenu-categories{
@@ -307,15 +345,15 @@ h3 {
 }
 
 
-.product-description h2 {
+.description-wrapper-big-display h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bolder;
   letter-spacing: 1.5px;
   text-decoration: none;
   font-size: 1.2em;
-  text-align: left;
   margin: 0;
   padding: 0;
+  text-align: left;
 }
 
 .description-wrapper-small-display h2{
@@ -330,6 +368,7 @@ h3 {
   padding-top: 5%;
 }
 
+
 .description-wrapper-small-display h3 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: lighter;
@@ -341,6 +380,20 @@ h3 {
   padding: 0;
   padding-top: 1em;
 }
+
+
+.description-wrapper-big-display h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 1.0em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  padding-top: 1em;
+}
+
 
 
 h2 {
@@ -355,6 +408,18 @@ h2 {
 }
 
 .product-describtion p {
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 0.75em;
+  text-decoration: none;
+  text-align: left;
+  margin: 0;
+  padding-top: 2em;
+}
+
+.description-wrapper-small-display p {
   float: left;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: lighter;
@@ -398,13 +463,17 @@ section {
 
 input {
   display: none;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 label {
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1px;
   display: inline-block;
   margin: 0 0 -1px;
   padding: 15px 25px;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 0.9em;
   text-align: center;
   color: #bbb;
   border: 1px solid transparent;
@@ -473,6 +542,29 @@ input:checked + label {
   font-size: 0.9em;
 }
 
+.dimension-number{
+font-size: 0.75em;
+}
+
+.dimension-detail{
+font-size: 0.75em;
+}
+
+
+.dimension-title{
+font-size: 0.85em;
+}
+
+
+#quantity {
+  width: 55%;
+}
+
+#productdropdown{
+  width: 40%;
+  padding-left: 10%;
+}
+
 }
 
 
@@ -497,6 +589,22 @@ input:checked + label {
 
 .hierarchy_button {
   font-size: 0.85em;
+}
+
+.dimension-number{
+text-align: center;
+font-size: 0.68em;
+}
+
+.dimension-detail{
+text-align: center;
+font-size: 0.68em;
+}
+
+
+.dimension-title{
+text-align: center;
+font-size: 0.78em;
 }
 
 
