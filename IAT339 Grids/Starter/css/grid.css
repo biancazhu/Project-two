@@ -110,6 +110,30 @@
   padding-bottom: 4em;
 }
 
+.grid-col-1of2.review-tab {
+  width: 50%;
+}
+
+.grid-col-10of10.review-header{
+  width: 100%;
+  padding-bottom: 2em;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #E6E6E6;
+}
+
+.grid-col-10of10.customer-review{
+  width: 100%;
+  padding-bottom: 2em;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #E6E6E6;
+}
+
+.review-wrapper{
+  padding-bottom: 20em;
+}
+
 .navigation-nav {
   float: right;
   padding-bottom: 2em;
